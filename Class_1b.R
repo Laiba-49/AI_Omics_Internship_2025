@@ -47,4 +47,6 @@ class(data$smoker_fac)
 data$diagnosis_fac <- as.factor(data$diagnosis)
 class(data$diagnosis_fac)
 data$diagnosis_fac
+write.csv(data, file = "Results/Patient_info_clean.csv")
+
 
